@@ -1,10 +1,11 @@
-package com.rescue.campulung.service;
+package com.rescue.campulung.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.rescue.campulung.model.User;
 import com.rescue.campulung.repository.UserRepository;
+import com.rescue.campulung.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {
